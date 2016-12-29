@@ -61,40 +61,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //    name: "top bear now",
 //    url: "IB_wants_top_bear.mp3"
 //    },
-//    {
-//    name: "needs bug spray",
-//    url: "IB_bug_spray.mp3"
-//    },
-//    {
-//    name: "is survivor",
-//    url: "IB_is_survivor.mp3"
-//    },
-//    {
-//    name: "made her a pashmina",
-//    url: "IB_made_a_pajmina.mp3"
-//    },
-//    {
-//    name: "settled that",
-//    url: "IB_settled_that.mp3"
-//    },
-//    {
-//    name: "likes turtle",
-//    url: "IB_turtle.mp3"
-//    },
-//    {
-//    name: "don't ditch",
-//    url: "IB_dont_ditch.mp3"
-//    },
-//    {
-//    name: "turtleneck",
-//    url: "IB_turtle_neck.mp3"
-//    },
-//    {
-//    name: "miss yoga",
-//    url: "IB_miss_yoga.mp3"
-//    },
 
-    
+
     
     let soundBytes = [
         SoundByte(mName: "Merry Xmas Min!", mInternalName: "IB_koreanxmasheaven"),
@@ -107,17 +75,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //        SoundByte(mName: "", mInternalName: "IB_"),
 //        SoundByte(mName: "", mInternalName: "IB_"),
 //        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
+        SoundByte(mName: "needs bug spray", mInternalName: "IB_bug_spray"),
+        SoundByte(mName: "is survivor", mInternalName: "IB_is_survivor"),
+        SoundByte(mName: "made her a pashmina", mInternalName: "IB_made_a_pajmina"),
+        SoundByte(mName: "settled that", mInternalName: "IB_settled_that"),
+        SoundByte(mName: "likes turtle", mInternalName: "IB_turtle"),
+        SoundByte(mName: "don't ditch", mInternalName: "IB_dont_ditch"),
+        SoundByte(mName: "turtle neck", mInternalName: "IB_turtle_neck"),
         SoundByte(mName: "miss yoga", mInternalName: "IB_miss_yoga"),
         SoundByte(mName: "cleanbabies", mInternalName: "IB_cleanbabies"),
-        SoundByte(mName: "hates_butts", mInternalName: "IB_hates_butts"),
-        SoundByte(mName: "believed_in_you", mInternalName: "IB_believed_in_you"),
+        SoundByte(mName: "hates butts", mInternalName: "IB_hates_butts"),
+        SoundByte(mName: "believed in you", mInternalName: "IB_believed_in_you"),
         SoundByte(mName: "is in", mInternalName: "IB_is_in"),
         SoundByte(mName: "too many secrets", mInternalName: "IB_too_many_secrets"),
         SoundByte(mName: "ossuoshipshoe", mInternalName: "IB_ossuoshipshoe"),
