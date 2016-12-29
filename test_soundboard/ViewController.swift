@@ -32,6 +32,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        let url = Bundle.main.url(forResource: sound, withExtension: "mp3")!
+//        let audioPlayer = try AVAudioPlayer(contentsOf: url)
+//        audioPlayers.append(audioPlayer)
+        
         //maybe don't need these anymore
 //        myTableView.dataSource = self
 //        myTableView.dataSource = self
@@ -48,7 +53,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-     return 10
+     return soundBytes.count
     }
     
     
@@ -57,9 +62,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
-        cell.textLabel?.text = "Thanks Charles!"
-            
-//            soundBites[indexPath.row]
+        cell.textLabel?.text = soundBytes[indexPath.row].name
         return cell
     }
 
