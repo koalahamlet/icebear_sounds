@@ -10,6 +10,12 @@
 		16D295171E14F58B00622FFB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D295161E14F58B00622FFB /* AVFoundation.framework */; };
 		16D2952D1E14FBA600622FFB /* IB_awnyawng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D2952B1E14FBA600622FFB /* IB_awnyawng.mp3 */; };
 		16D2952E1E14FBA600622FFB /* IB_jizomida.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D2952C1E14FBA600622FFB /* IB_jizomida.mp3 */; };
+		16D295301E15C31000622FFB /* IB_is_in.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D2952F1E15C31000622FFB /* IB_is_in.mp3 */; };
+		16D295321E15C31F00622FFB /* IB_koreanxmasheaven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295311E15C31F00622FFB /* IB_koreanxmasheaven.mp3 */; };
+		16D295341E15C33100622FFB /* IB_too_many_secrets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295331E15C33100622FFB /* IB_too_many_secrets.mp3 */; };
+		16D295381E15C36200622FFB /* IB_ossuoshipshoe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295351E15C36200622FFB /* IB_ossuoshipshoe.mp3 */; };
+		16D295391E15C36200622FFB /* IB_poogi_something.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295361E15C36200622FFB /* IB_poogi_something.mp3 */; };
+		16D2953A1E15C36200622FFB /* IB_shilliyagisamnidad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295371E15C36200622FFB /* IB_shilliyagisamnidad.mp3 */; };
 		16E4C5BB1E0C6A1300FE126F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E4C5BA1E0C6A1300FE126F /* AppDelegate.swift */; };
 		16E4C5BD1E0C6A1300FE126F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E4C5BC1E0C6A1300FE126F /* ViewController.swift */; };
 		16E4C5C01E0C6A1300FE126F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E4C5BE1E0C6A1300FE126F /* Main.storyboard */; };
@@ -21,6 +27,12 @@
 		16D295161E14F58B00622FFB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		16D2952B1E14FBA600622FFB /* IB_awnyawng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_awnyawng.mp3; sourceTree = "<group>"; };
 		16D2952C1E14FBA600622FFB /* IB_jizomida.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_jizomida.mp3; sourceTree = "<group>"; };
+		16D2952F1E15C31000622FFB /* IB_is_in.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_is_in.mp3; sourceTree = "<group>"; };
+		16D295311E15C31F00622FFB /* IB_koreanxmasheaven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_koreanxmasheaven.mp3; sourceTree = "<group>"; };
+		16D295331E15C33100622FFB /* IB_too_many_secrets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_too_many_secrets.mp3; sourceTree = "<group>"; };
+		16D295351E15C36200622FFB /* IB_ossuoshipshoe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_ossuoshipshoe.mp3; sourceTree = "<group>"; };
+		16D295361E15C36200622FFB /* IB_poogi_something.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_poogi_something.mp3; sourceTree = "<group>"; };
+		16D295371E15C36200622FFB /* IB_shilliyagisamnidad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_shilliyagisamnidad.mp3; sourceTree = "<group>"; };
 		16E4C5B71E0C6A1300FE126F /* test_soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_soundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E4C5BA1E0C6A1300FE126F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16E4C5BC1E0C6A1300FE126F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,8 +65,14 @@
 		16D2952A1E14FB0500622FFB /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				16D2952B1E14FBA600622FFB /* IB_awnyawng.mp3 */,
 				16D2952C1E14FBA600622FFB /* IB_jizomida.mp3 */,
+				16D295311E15C31F00622FFB /* IB_koreanxmasheaven.mp3 */,
+				16D295331E15C33100622FFB /* IB_too_many_secrets.mp3 */,
+				16D2952F1E15C31000622FFB /* IB_is_in.mp3 */,
+				16D295351E15C36200622FFB /* IB_ossuoshipshoe.mp3 */,
+				16D295361E15C36200622FFB /* IB_poogi_something.mp3 */,
+				16D295371E15C36200622FFB /* IB_shilliyagisamnidad.mp3 */,
+				16D2952B1E14FBA600622FFB /* IB_awnyawng.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -149,10 +167,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D295301E15C31000622FFB /* IB_is_in.mp3 in Resources */,
 				16E4C5C51E0C6A1300FE126F /* LaunchScreen.storyboard in Resources */,
 				16D2952E1E14FBA600622FFB /* IB_jizomida.mp3 in Resources */,
 				16E4C5C21E0C6A1300FE126F /* Assets.xcassets in Resources */,
+				16D295381E15C36200622FFB /* IB_ossuoshipshoe.mp3 in Resources */,
+				16D2953A1E15C36200622FFB /* IB_shilliyagisamnidad.mp3 in Resources */,
+				16D295391E15C36200622FFB /* IB_poogi_something.mp3 in Resources */,
 				16E4C5C01E0C6A1300FE126F /* Main.storyboard in Resources */,
+				16D295341E15C33100622FFB /* IB_too_many_secrets.mp3 in Resources */,
+				16D295321E15C31F00622FFB /* IB_koreanxmasheaven.mp3 in Resources */,
 				16D2952D1E14FBA600622FFB /* IB_awnyawng.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
