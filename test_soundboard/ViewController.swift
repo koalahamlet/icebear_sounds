@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var myTableView: UITableView!
     
+    var audioplayers = [AVAudioPlayer]()
     
     class SoundByte {
         let name: String
@@ -33,6 +35,24 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        for sound in soundBytes {
+//            URL(fileURLWithPath:)
+            let isThisAnUrl = URL(fileURLWithPath: Bundle.main.path(forResource: sound.internalName, ofType: "mp3")!)
+            do {
+                print(isThisAnUrl)
+                let audioplayer = try AVAudioPlayer(contentsOf: isThisAnUrl)
+                audioplayers.append(audioplayer)
+                print("I added a audioplayer")
+            }
+            catch {
+                audioplayers.append(AVAudioPlayer())
+                print("I failed an audioplayer")
+            }
+            
+            
+//            let url = Bundle.main.url(forResource: sound.internalName, withExtension: "mp3")!
+        }
+        
 //        let url = Bundle.main.url(forResource: sound, withExtension: "mp3")!
 //        let audioPlayer = try AVAudioPlayer(contentsOf: url)
 //        audioPlayers.append(audioPlayer)
@@ -42,6 +62,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //        myTableView.dataSource = self
         // Do any additional setup after loading the view, typically from a nib.
         
+        
+    }
+    @IBAction func buttonClicked(_ sender: Any) {
+        print("clicked button")
+        for player in audioplayers {
+            print(player.isPlaying)
+        }
         
     }
 
@@ -68,7 +95,22 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-     print("clicked cell \(indexPath.row)")
+        
+        
+        audioplayers[indexPath.row].play()
+        
+//        do {
+//            let url = Bundle.main.url(forResource: soundBytes[indexPath.row].internalName, withExtension: "mp3")!
+//            print(url)
+//            let audioPlayer = try AVAudioPlayer(contentsOf: url)
+//            audioPlayer.play()
+//            print("played cell \(indexPath.row)")
+//        } catch {
+//            print("error cell \(indexPath.row)")
+//        
+//        }
+        
+        print("clicked cell \(indexPath.row)")
     }
     
 }
