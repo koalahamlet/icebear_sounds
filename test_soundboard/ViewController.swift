@@ -64,14 +64,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         
     }
-    @IBAction func buttonClicked(_ sender: Any) {
-        print("clicked button")
-        for player in audioplayers {
-            print(player.isPlaying)
-        }
-        
-    }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
