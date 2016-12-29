@@ -42,10 +42,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //    url: "IB_enjoys_basking.mp3"
 //    },
 //    {
-//    name: "believed in you",
-//    url: "IB_believed_in_you.mp3"
-//    },
-//    {
 //    name: "will coach you",
 //    url: "IB_coach_you_manhood.mp3"
 //    },
@@ -97,14 +93,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //    name: "miss yoga",
 //    url: "IB_miss_yoga.mp3"
 //    },
-//    {
-//    name: "smells like clean babies",
-//    url: "IB_cleanbabies.mp3"
-//    },
-//    {
-//    name: "hates butts",
-//    url: "IB_hates_butts.mp3"
-//    },
+
     
     
     let soundBytes = [
@@ -125,10 +114,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //        SoundByte(mName: "", mInternalName: "IB_"),
 //        SoundByte(mName: "", mInternalName: "IB_"),
 //        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
+        SoundByte(mName: "miss yoga", mInternalName: "IB_miss_yoga"),
+        SoundByte(mName: "cleanbabies", mInternalName: "IB_cleanbabies"),
+        SoundByte(mName: "hates_butts", mInternalName: "IB_hates_butts"),
+        SoundByte(mName: "believed_in_you", mInternalName: "IB_believed_in_you"),
         SoundByte(mName: "is in", mInternalName: "IB_is_in"),
         SoundByte(mName: "too many secrets", mInternalName: "IB_too_many_secrets"),
         SoundByte(mName: "ossuoshipshoe", mInternalName: "IB_ossuoshipshoe"),
