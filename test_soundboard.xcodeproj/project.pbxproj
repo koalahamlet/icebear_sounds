@@ -27,6 +27,15 @@
 		16D2954C1E15D6D500622FFB /* IB_made_a_pajmina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D2954B1E15D6D500622FFB /* IB_made_a_pajmina.mp3 */; };
 		16D2954E1E15D6DD00622FFB /* IB_is_survivor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D2954D1E15D6DD00622FFB /* IB_is_survivor.mp3 */; };
 		16D295501E15D6E500622FFB /* IB_bug_spray.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D2954F1E15D6E500622FFB /* IB_bug_spray.mp3 */; };
+		16D295521E15D82300622FFB /* tote_wrap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295511E15D82300622FFB /* tote_wrap.mp3 */; };
+		16D2955B1E15D8B700622FFB /* IB_best_thing_to_happen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295531E15D8B700622FFB /* IB_best_thing_to_happen.mp3 */; };
+		16D2955C1E15D8B700622FFB /* IB_coach_you_manhood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295541E15D8B700622FFB /* IB_coach_you_manhood.mp3 */; };
+		16D2955D1E15D8B700622FFB /* IB_enjoys_basking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295551E15D8B700622FFB /* IB_enjoys_basking.mp3 */; };
+		16D2955E1E15D8B700622FFB /* IB_is_still_proud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295561E15D8B700622FFB /* IB_is_still_proud.mp3 */; };
+		16D2955F1E15D8B700622FFB /* IB_thinks_youre_precious.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295571E15D8B700622FFB /* IB_thinks_youre_precious.mp3 */; };
+		16D295601E15D8B700622FFB /* IB_tote_life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295581E15D8B700622FFB /* IB_tote_life.mp3 */; };
+		16D295611E15D8B700622FFB /* IB_wants_top_bear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D295591E15D8B700622FFB /* IB_wants_top_bear.mp3 */; };
+		16D295621E15D8B700622FFB /* IB_will_not_bless_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D2955A1E15D8B700622FFB /* IB_will_not_bless_you.mp3 */; };
 		16E4C5BB1E0C6A1300FE126F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E4C5BA1E0C6A1300FE126F /* AppDelegate.swift */; };
 		16E4C5BD1E0C6A1300FE126F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E4C5BC1E0C6A1300FE126F /* ViewController.swift */; };
 		16E4C5C01E0C6A1300FE126F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E4C5BE1E0C6A1300FE126F /* Main.storyboard */; };
@@ -55,6 +64,15 @@
 		16D2954B1E15D6D500622FFB /* IB_made_a_pajmina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_made_a_pajmina.mp3; sourceTree = "<group>"; };
 		16D2954D1E15D6DD00622FFB /* IB_is_survivor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_is_survivor.mp3; sourceTree = "<group>"; };
 		16D2954F1E15D6E500622FFB /* IB_bug_spray.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_bug_spray.mp3; sourceTree = "<group>"; };
+		16D295511E15D82300622FFB /* tote_wrap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tote_wrap.mp3; sourceTree = "<group>"; };
+		16D295531E15D8B700622FFB /* IB_best_thing_to_happen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_best_thing_to_happen.mp3; sourceTree = "<group>"; };
+		16D295541E15D8B700622FFB /* IB_coach_you_manhood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_coach_you_manhood.mp3; sourceTree = "<group>"; };
+		16D295551E15D8B700622FFB /* IB_enjoys_basking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_enjoys_basking.mp3; sourceTree = "<group>"; };
+		16D295561E15D8B700622FFB /* IB_is_still_proud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_is_still_proud.mp3; sourceTree = "<group>"; };
+		16D295571E15D8B700622FFB /* IB_thinks_youre_precious.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_thinks_youre_precious.mp3; sourceTree = "<group>"; };
+		16D295581E15D8B700622FFB /* IB_tote_life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_tote_life.mp3; sourceTree = "<group>"; };
+		16D295591E15D8B700622FFB /* IB_wants_top_bear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_wants_top_bear.mp3; sourceTree = "<group>"; };
+		16D2955A1E15D8B700622FFB /* IB_will_not_bless_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IB_will_not_bless_you.mp3; sourceTree = "<group>"; };
 		16E4C5B71E0C6A1300FE126F /* test_soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_soundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E4C5BA1E0C6A1300FE126F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16E4C5BC1E0C6A1300FE126F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +124,15 @@
 				16D295491E15D6CC00622FFB /* IB_settled_that.mp3 */,
 				16D2954D1E15D6DD00622FFB /* IB_is_survivor.mp3 */,
 				16D2954F1E15D6E500622FFB /* IB_bug_spray.mp3 */,
+				16D295511E15D82300622FFB /* tote_wrap.mp3 */,
+				16D295531E15D8B700622FFB /* IB_best_thing_to_happen.mp3 */,
+				16D295541E15D8B700622FFB /* IB_coach_you_manhood.mp3 */,
+				16D295551E15D8B700622FFB /* IB_enjoys_basking.mp3 */,
+				16D295561E15D8B700622FFB /* IB_is_still_proud.mp3 */,
+				16D295571E15D8B700622FFB /* IB_thinks_youre_precious.mp3 */,
+				16D295581E15D8B700622FFB /* IB_tote_life.mp3 */,
+				16D295591E15D8B700622FFB /* IB_wants_top_bear.mp3 */,
+				16D2955A1E15D8B700622FFB /* IB_will_not_bless_you.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -203,25 +230,34 @@
 				16D295301E15C31000622FFB /* IB_is_in.mp3 in Resources */,
 				16E4C5C51E0C6A1300FE126F /* LaunchScreen.storyboard in Resources */,
 				16D2952E1E14FBA600622FFB /* IB_jizomida.mp3 in Resources */,
+				16D295521E15D82300622FFB /* tote_wrap.mp3 in Resources */,
 				16D295401E15CA0A00622FFB /* IB_cleanbabies.mp3 in Resources */,
 				16E4C5C21E0C6A1300FE126F /* Assets.xcassets in Resources */,
 				16D295461E15D6B400622FFB /* IB_dont_ditch.mp3 in Resources */,
+				16D295621E15D8B700622FFB /* IB_will_not_bless_you.mp3 in Resources */,
 				16D295381E15C36200622FFB /* IB_ossuoshipshoe.mp3 in Resources */,
 				16D2953A1E15C36200622FFB /* IB_shilliyagisamnidad.mp3 in Resources */,
 				16D295391E15C36200622FFB /* IB_poogi_something.mp3 in Resources */,
 				16D295481E15D6C300622FFB /* IB_turtle.mp3 in Resources */,
 				16D295501E15D6E500622FFB /* IB_bug_spray.mp3 in Resources */,
 				16E4C5C01E0C6A1300FE126F /* Main.storyboard in Resources */,
+				16D2955F1E15D8B700622FFB /* IB_thinks_youre_precious.mp3 in Resources */,
+				16D2955D1E15D8B700622FFB /* IB_enjoys_basking.mp3 in Resources */,
 				16D2953C1E15C9A800622FFB /* IB_believed_in_you.mp3 in Resources */,
 				16D295441E15D6AD00622FFB /* IB_turtle_neck.mp3 in Resources */,
+				16D2955C1E15D8B700622FFB /* IB_coach_you_manhood.mp3 in Resources */,
 				16D2953E1E15C9D800622FFB /* IB_hates_butts.mp3 in Resources */,
 				16D2954A1E15D6CC00622FFB /* IB_settled_that.mp3 in Resources */,
 				16D2954C1E15D6D500622FFB /* IB_made_a_pajmina.mp3 in Resources */,
 				16D295341E15C33100622FFB /* IB_too_many_secrets.mp3 in Resources */,
 				16D295321E15C31F00622FFB /* IB_koreanxmasheaven.mp3 in Resources */,
+				16D2955E1E15D8B700622FFB /* IB_is_still_proud.mp3 in Resources */,
 				16D295421E15CC0200622FFB /* IB_miss_yoga.mp3 in Resources */,
+				16D295611E15D8B700622FFB /* IB_wants_top_bear.mp3 in Resources */,
 				16D2952D1E14FBA600622FFB /* IB_awnyawng.mp3 in Resources */,
 				16D2954E1E15D6DD00622FFB /* IB_is_survivor.mp3 in Resources */,
+				16D295601E15D8B700622FFB /* IB_tote_life.mp3 in Resources */,
+				16D2955B1E15D8B700622FFB /* IB_best_thing_to_happen.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

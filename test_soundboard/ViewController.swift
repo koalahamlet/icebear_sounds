@@ -24,57 +24,25 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
     
-//    
-//    {
-//    name: "tote wrap",
-//    url: "tote_wrap.mp3"
-//    },
+
 //    {
 //    name: "tote life",
 //    url: "IB_tote_life.mp3"
-//    },
-//    {
-//    name: "best thing",
-//    url: "IB_best_thing_to_happen.mp3"
-//    },
-//    {
-//    name: "enjoys basking",
-//    url: "IB_enjoys_basking.mp3"
-//    },
-//    {
-//    name: "will coach you",
-//    url: "IB_coach_you_manhood.mp3"
-//    },
-//    {
-//    name: "still proud",
-//    url: "IB_is_still_proud.mp3"
-//    },
-//    {
-//    name: "thinks you're precious",
-//    url: "IB_thinks_youre_precious.mp3"
-//    },
-//    {
-//    name: "will not bless you",
-//    url: "IB_will_not_bless_you.mp3"
-//    },
-//    {
-//    name: "top bear now",
-//    url: "IB_wants_top_bear.mp3"
 //    },
 
 
     
     let soundBytes = [
         SoundByte(mName: "Merry Xmas Min!", mInternalName: "IB_koreanxmasheaven"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
-//        SoundByte(mName: "", mInternalName: "IB_"),
+        SoundByte(mName: "tote life", mInternalName: "IB_tote_life"),
+        SoundByte(mName: "best thing to happen", mInternalName: "IB_best_thing_to_happen"),
+        SoundByte(mName: "enjoys basking", mInternalName: "IB_enjoys_basking"),
+        SoundByte(mName: "will coach you", mInternalName: "IB_coach_you_manhood"),
+        SoundByte(mName: "is still proud", mInternalName: "IB_is_still_proud"),
+        SoundByte(mName: "you're precious", mInternalName: "IB_thinks_youre_precious"),
+        SoundByte(mName: "will not bless you", mInternalName: "IB_will_not_bless_you"),
+        SoundByte(mName: "top bear now", mInternalName: "IB_wants_top_bear"),
+        SoundByte(mName: "tote wrap", mInternalName: "tote_wrap"),
         SoundByte(mName: "needs bug spray", mInternalName: "IB_bug_spray"),
         SoundByte(mName: "is survivor", mInternalName: "IB_is_survivor"),
         SoundByte(mName: "made her a pashmina", mInternalName: "IB_made_a_pajmina"),
