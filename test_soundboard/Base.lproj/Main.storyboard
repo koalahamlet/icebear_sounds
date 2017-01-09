@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8LD-6F-CXa">
-                                <rect key="frame" x="0.0" y="200" width="195" height="459"/>
+                                <rect key="frame" x="0.0" y="79" width="195" height="588"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -30,7 +30,7 @@
                                         <rect key="frame" x="0.0" y="28" width="195" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Iju-W7-0Vd" id="B6p-mJ-aTJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="195" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="195" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -40,12 +40,8 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="MB3-dv-MSU"/>
                                 </connections>
                             </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wordmark.png" translatesAutoresizingMaskIntoConstraints="NO" id="q6p-t7-jkR">
-                                <rect key="frame" x="67" y="20" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="standing.png" translatesAutoresizingMaskIntoConstraints="NO" id="DJl-Qb-Zxb">
-                                <rect key="frame" x="203" y="259" width="173" height="388"/>
+                                <rect key="frame" x="202" y="130" width="173" height="388"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -62,6 +58,5 @@
     </scenes>
     <resources>
         <image name="standing.png" width="185" height="350"/>
-        <image name="wordmark.png" width="250" height="118"/>
     </resources>
 </document>
